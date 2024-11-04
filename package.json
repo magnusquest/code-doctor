@@ -6,8 +6,7 @@
     "dev": "next dev --turbo",
     "build": "tsx db/migrate && next build",
     "start": "next start",
-    "lint": "next lint",
-    "postinstall": "pnpm install --legacy-peer-deps"
+    "lint": "next lint"
   },
   "dependencies": {
     "@ai-sdk/openai": "^0.0.71",
